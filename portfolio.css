@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Ubuntu;
+}
+
+nav {
+    width: 100vw;
+    background-color:hsl(214, 89%, 52%);
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media (max-width: 992px), (max-width: 1200px){
+    nav {
+        padding:20px 35px;
+    }
+} 
+@media (max-width: 890px) {
+    nav{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+        padding:20px 20px;
+    }
+}
+@media (max-width: 586px) {
+    nav{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 40px;
+        padding:20px 35px;
+    }
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+ @media (max-width: 992px){
+    nav a{
+        font-size: 1.25rem;
+    }
+}  
+nav a:hover{
+    color: #00428d;
+    cursor: pointer;
+}
+.portfolio{
+    background-color: #ffffff;
+    color:#1877f2;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 80px;
+}
+nav img{
+    width: 40px;
+    height: 30px;
+}
+.nav-tags{
+    width: 55vw;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+@media (max-width: 890px) {
+    .nav-tags{
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+@media (max-width: 586px) {
+    .nav-tags{
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+}
+
+.SocialMedia{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+nav .SocialMedia img{
+    width: 30px;
+    height: 30px;
+}
+.top-text{
+    max-width: 90%;
+    margin: 40px 100px;
+    display: flex;
+    gap: 60px;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+@media (max-width: 894px){
+    .top-text{
+        flex-direction: column;
+        gap: 20px;
+    }
+}    
+   
+.top-text h4{
+    font-size: 40px;
+    color: #868686;
+}
+.top-text p{
+    font-size: 20px;
+    width: 70%;
+}
+@media (max-width: 596px){
+    .top-text p{
+        font-size: 20px;
+        width: 70%;
+    }
+}   
+
+.design-portfolio{
+    width: 80vw;
+    height: 20rem;
+    margin: 50px 100px;
+    border-radius: 20px;
+    padding: 25px 30px;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: column;
+    background-color: #e0eeff;
+}
+@media (max-width: 894px){
+    .design-portfolio{
+        height: 28rem;
+    }
+} 
+@media (max-width: 596px){
+    .design-portfolio{
+        width: 95vw;
+        height: 30rem;
+        margin: 50px 80px;
+        border-radius: 20px;
+        padding: 25px 30px;
+        display: flex;
+        gap: 20px;
+        justify-content: space-between;
+        align-content: center;
+        flex-direction: column;
+        background-color: #e0eeff;
+    }
+    .images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 60%;
+        gap: 8px;
+        flex-wrap: wrap;
+    }
+}   
+.design-portfolio img{
+    width: 10rem;
+    border-radius: 20px; 
+}
+@media (max-width: 580px){
+    .design-portfolio img{
+        gap: 10px;
+    }
+} 
+
+.images{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    gap: 8px;
+    flex-wrap: wrap;
+}
+/* @media (max-width: 992px){
+    .images{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex
+    }
+}   */
+.design-words{
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+}
+.design-words p{
+    color: #00428d;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+.design-words a button{
+    background-color: #1877f2;
+    color:#ffffff;
+    width: 10rem;
+    height: 40px;
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 60px;
+    border: none;
+    font-size: 20px;
+}
+

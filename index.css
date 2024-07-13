@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:  Ubuntu;
+}
+
+nav {
+    width: 100vw;
+    background-color:hsl(214, 89%, 52%);
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+@media (max-width: 992px), (max-width: 1200px){
+    nav {
+        padding:20px 35px;
+    }
+} 
+@media (max-width: 896px) {
+    nav{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 20px;
+        padding:20px 20px;
+    }
+}
+@media (max-width: 586px) {
+    nav{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-direction: column;
+        gap: 40px;
+        padding:20px 35px;
+    }
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.3rem;
+}
+ @media (max-width: 992px){
+    nav a{
+        font-size: 1.25rem;
+    }
+}  
+nav a:hover{
+    color: #00428d;
+    cursor: pointer;
+}
+.home{
+    background-color: #ffffff;
+    color:#1877f2;
+    width: 9rem;
+    height: 2.5rem;
+    padding: 6px 10px;
+    text-align: center;
+    border-radius: 80px;
+}
+nav img{
+    width: 40px;
+    height: 30px;
+}
+.nav-tags{
+    width: 55vw;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+@media (max-width: 786px) {
+    .nav-tags{
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 20px;
+    }
+}
+@media (max-width: 586px) {
+    .nav-tags{
+        width: 70vw;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 15px;
+    }
+}
+
+.SocialMedia{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+nav .SocialMedia img{
+    width: 30px;
+    height: 30px;
+}
+.HeroSection {
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media (max-width: 992px){
+   .HeroSection{
+    gap: 55px;
+ }
+}
+@media (max-width: 768px){
+    .HeroSection {
+        flex-direction: column;
+        padding: 20px 40px;
+  }
+ }
+.HeroSection div{
+    width: 45%;
+    margin-top: 40px;
+}
+@media (max-width: 992px){
+    .HeroSection div{
+        width: 60%;
+  }
+ }
+ @media (max-width: 768px){
+    .HeroSection div{
+        width: 80%;
+  }
+ }
+
+
+.HeroSection div h1{
+    font-size: 64px;
+    color: #0c0c0c;
+    padding-bottom: 20px;
+}
+@media (max-width: 1200px){
+    .HeroSection div h1{
+        font-size: 56px;
+        padding-bottom: 10px;
+  }
+ }
+ @media (max-width: 768px){
+    .HeroSection div h1{
+        font-size: 48px;
+        padding-bottom: 10px;
+  }
+ }
+ @media (max-width: 596px){
+    .HeroSection div h1{
+        font-size: 36px;
+        padding-bottom: 10px;
+  }
+ }
+ 
+.HeroSection div h4{
+    font-size: 30px;
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+}
+@media (max-width: 768px){
+    .HeroSection div h4{
+        font-size: 26px;
+  }
+ }
+.HeroSection div p{
+    font-size: 20px;
+    color: rgb(22, 22, 22);
+    padding-top: 16px;
+}
+@media (max-width: 596px){
+    .HeroSection div p{
+        font-size: 18px;
+        padding-bottom: 10px;
+        width: 20rem;
+  }
+ }
+
+.profile-image{
+    width: 400px;
+    height: 450px;
+    margin-top: 30px ;
+    margin-right: 40px;
+}
+@media (max-width: 596px){
+    .profile-image{
+        margin-left: 60px;
+        padding-bottom: 10px;
+  }
+ }
+.HeroSection div button{
+    color: white;
+    background-color:#1877f2;
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 30px;
+
+}
+.HeroSection div button:hover{
+    background-color: #2a86ff;
+}
+
+.HeroSection div button:active{
+    background-color: #979797;
+}
+.footer{
+    color: #8f8f8f;
+    margin-top: 10px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
